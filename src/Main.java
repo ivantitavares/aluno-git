@@ -2,6 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        //curso inicial JAVA Alura
         System.out.println("Esse é o Screen match");
         System.out.println("Filme: Top Gan: Maverick");
 
@@ -9,5 +10,9 @@ public class Main {
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;System.out.println("Alô Mundo!");
+
+        double media = (9.3 + 4.4 + 8.0)/3;
+        System.out.println(media);
+        String inopse = "Filme de aventura com galã dos anos 80";
     }
 }
