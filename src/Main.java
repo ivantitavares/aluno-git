@@ -9,10 +9,16 @@ public class Main {
         int anoDeLancamento = 2022;
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
         boolean incluidoNoPlano = true;
-        double notaDoFilme = 8.1;System.out.println("Alô Mundo!");
+        double notaDoFilme = 8.1;
 
         double media = (9.3 + 4.4 + 8.0)/3;
         System.out.println(media);
-        String inopse = "Filme de aventura com galã dos anos 80";
+        String sinopse = "Filme de aventura com galã dos anos 80, lançado em: " + anoDeLancamento;
+        System.out.println(sinopse);
+
+        int classificacao;
+        classificacao = (int) media /2;
+        System.out.println(classificacao);
+
     }
 }
